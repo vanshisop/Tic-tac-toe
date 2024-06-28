@@ -78,3 +78,24 @@ header{
     text-align: center;
 
 }
+@media only screen and (max-width: 20000px) {
+    /* CSS for screens smaller than 600px (typically smartphones) */
+    header{
+        height: 10vh;
+        /*border: 1px solid black;*/
+        /*border: 1px solid black;*/
+    }
+    .heading{
+        font-size: 8vh;
+    }
+    .board{
+        height: 55vh;
+        width: 80%;
+        
+    }
+    .buttons button{
+        height: 5vh;
+        font-size: 3vh;
+    }
+    
+}
