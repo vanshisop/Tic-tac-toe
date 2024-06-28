@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+    /*border: 1px solid black;*/
+    /*border: 1px solid black;*/
+}
+.heading{
+    text-align: center;
+    font-family: 'Open Sans';
+    /*border: 1px solid black;*/
+    font-size: 12vh;
+    
+}
+.board{
+    height: 55vh;
+    border: 1px solid black;
+    width: 70vh;
+    margin: 0 auto;
+    padding: 2vh;
+    background-color: rgb(50, 29, 29);
+}
+.row1,.row2,.row3{
+
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.col1,.col2,.col3{
+
+    height: 100%;
+    width: 30%;
+    background-color: #FFE4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vh;
+
+}
+.buttons{
+    display: flex;
+    margin-bottom: 3vh;
+    justify-content: center;
+    height: 7vh;
+    
+ 
+}
+.buttons button{
+    background-color: darkslategrey;
+    border: 2px solid black;
+    color: white;
+    width: 15%;
+    height: 7vh;
+    font-size: 4vh;
+    border-radius: 20%;
+}
+
+#re-start{
+    background-color: darkred;
+}
+
+.text{
+    font-family: 'Roboto Mono'; /* Replace with your preferred font stack */
+    font-size: 4vh; /* Adjust based on your design and readability needs */
+    line-height: 1.6; /* Recommended line height for readability */
+    color: #333;
+    margin-top: 3vh;
+    text-align: center;
+
+}
