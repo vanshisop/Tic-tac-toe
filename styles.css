@@ -89,13 +89,14 @@ header{
         font-size: 8vh;
     }
     .board{
-        height: 50vh;
+        height: 45vh;
         width: 80%;
         
     }
     .buttons button{
         height: 5vh;
         font-size: 2vh;
+        width: 20%;
     }
     
 }
